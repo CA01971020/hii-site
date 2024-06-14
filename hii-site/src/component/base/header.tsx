@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function CustomHeader() {
   return (
     <header className="fixed w-full h-24 text-base text-Customblack bg-white">
@@ -6,16 +8,24 @@ export default function CustomHeader() {
       </div>
       <nav className="flex absolute justify-end right-7 top-9">
         <ul className="mr-4 p-0.5">
-          <li>Home</li>
+          <li>
+            <Link href="/">Home</Link>
+          </li>
         </ul>
         <ul className="mr-4 p-0.5">
-          <li>Skill</li>
+          <li>
+            <Link href="/#skill">Skill</Link>
+          </li>
         </ul>
         <ul className="mr-4 p-0.5">
-          <li>Portfolio</li>
+          <li>
+            <Link href="/#portfolio">Portfolio</Link>
+          </li>
         </ul>
         <ul className="text-white bg-Customgreen/50 rounded-full pl-2 pr-2 pb-0.5 pt-0.5">
-          <li>Contact</li>
+          <li>
+            <Link href="/#contact">Contact</Link>
+          </li>
         </ul>
       </nav>
     </header>
