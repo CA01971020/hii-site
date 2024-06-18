@@ -20,7 +20,7 @@ const ArticleCard: React.FC<ArticleCardProps> = ({
         <h2 className=" text-lg mb-5 underline underline-offset-8">{title}</h2>
         <p className="m-4">{description}</p>
         <a
-          className=" underline underline-offset-4 hover:text-Customgreen"
+          className=" underline underline-offset-4 text-Customblue hover:text-Customblue/50"
           href={url}
         >
           {platform}の記事を読む
