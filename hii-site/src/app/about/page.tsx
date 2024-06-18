@@ -11,9 +11,11 @@ export default function AboutPage() {
           <div>
             <h2 className=" underline underline-offset-4">好きなゲーム</h2>
             <div className=" mt-10 grid gap-10">
-              <p>APEX</p>
+              <p>Apex Legends</p>
               <p>Stellaris</p>
               <p>信長の野望</p>
+              <p>アークナイツ</p>
+              <p>Age of Empires IV</p>
             </div>
           </div>
           <div>
