@@ -7,7 +7,7 @@ export default function AboutPage() {
     <div>
       <section className="relative top-56 pb-56 text-white text-center">
         <h1 className=" text-3xl">- わたしについて -</h1>
-        <div className="grid grid-cols-2 mt-20 m-8">
+        <div className="grid grid-cols-2 mt-12 m-8">
           <div>
             <h2 className=" underline underline-offset-4">好きなゲーム</h2>
             <div className=" mt-10 grid gap-10">
