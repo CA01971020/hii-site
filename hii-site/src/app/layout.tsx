@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     url: "https://hii-site.vercel.app/",
     images: [
       {
-        url: "/hii-site/public/favicon.ico",
+        url: "https://hii-site.vercel.app/opgimg.png",
         width: 800,
         height: 600,
         alt: "ひーサイトイメージ画像",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     site: "@aputech2024",
     title: "ひーサイト",
     description: "情報系学生が作成したポートフォリオサイトです。",
-    images: "/hii-site/public/favicon.ico",
+    images: "https://hii-site.vercel.app/opgimg.png",
   },
 };
 
