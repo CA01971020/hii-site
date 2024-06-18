@@ -20,4 +20,10 @@ export const articles = [
     platform: "Zenn",
     url: "https://zenn.dev/aputech/articles/107984712771aa",
   },
+  {
+    title: "GooglePlayPassをオススメしたい。",
+    description: "思ったよりも良いサービスだったので紹介したい。",
+    platform: "note",
+    url: "https://note.com/hii_hgmt/n/nf7efa0b56d5c",
+  },
 ];
