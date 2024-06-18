@@ -8,19 +8,23 @@ export default function AboutPage() {
       <section className="relative top-56 pb-56 text-white text-center">
         <h1 className=" text-3xl">- わたしについて -</h1>
         <div className="grid grid-cols-2 mt-20 m-8">
-          <div className="grid grid-cols-1 gap-10">
-            <h2>好きなゲーム</h2>
-            <p>APEX</p>
-            <p>Stellaris</p>
-            <p>信長の野望</p>
+          <div>
+            <h2 className=" underline underline-offset-4">好きなゲーム</h2>
+            <div className=" mt-10 grid gap-10">
+              <p>APEX</p>
+              <p>Stellaris</p>
+              <p>信長の野望</p>
+            </div>
           </div>
-          <div className="grid grid-cols-1 gap-10">
-            <h2>好きなお酒</h2>
-            <p>ビール</p>
-            <p>シャンディガフ</p>
-            <p>ジンハイ</p>
-            <p>コークハイ</p>
-            <p>ジンバック</p>
+          <div>
+            <h2 className=" underline underline-offset-4">好きなお酒</h2>
+            <div className="mt-10 grid gap-10">
+              <p>ビール</p>
+              <p>シャンディガフ</p>
+              <p>ジンハイ</p>
+              <p>コークハイ</p>
+              <p>ジンバック</p>
+            </div>
           </div>
         </div>
         <div className="mt-40 grid grid-cols-1 m-8">
@@ -41,14 +45,14 @@ export default function AboutPage() {
             />
           ))}
         </div>
+        <div className="mt-32 text-white text-center">
+          <Link href="/">
+            <button className=" bg-Customblack pl-12 pr-12 pt-5 pb-5 rounded-full">
+              トップページに戻る
+            </button>
+          </Link>
+        </div>
       </section>
-      <div className="mt-32 text-white text-center">
-        <Link href="/">
-          <button className=" bg-Customblack pl-12 pr-12 pt-5 pb-5 rounded-full">
-            トップページに戻る
-          </button>
-        </Link>
-      </div>
     </div>
   );
 }
