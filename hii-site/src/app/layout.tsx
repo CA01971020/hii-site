@@ -9,6 +9,26 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "ひーサイト",
   description: "情報系学生が作成したポートフォリオサイトです。",
+  openGraph: {
+    title: "ひーサイト",
+    description: "情報系学生が作成したポートフォリオサイトです。",
+    url: "https://hii-site.vercel.app/",
+    images: [
+      {
+        url: "/hii-site/public/ogimg.png",
+        width: 800,
+        height: 600,
+        alt: "ひーサイトイメージ画像",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary",
+    site: "@aputech2024",
+    title: "ひーサイト",
+    description: "情報系学生が作成したポートフォリオサイトです。",
+    images: "/hii-site/public/ogimg.png",
+  },
 };
 
 export default function RootLayout({
