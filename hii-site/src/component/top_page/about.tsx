@@ -3,7 +3,7 @@ import NextLink from "next/link";
 export default function Profile() {
   return (
     <section className="relative top-32 text-white text-center">
-      <h1 className=" text-3xl">- プロフィール -</h1>
+      <h1 className=" text-3xl">プロフィール</h1>
       <div className="mt-12">
         <p>愛媛県在住の２１歳、情報系学生</p>
       </div>
@@ -17,7 +17,7 @@ export default function Profile() {
         <p>好きなフレームワークはNext.js</p>
       </div>
       <div className="mt-8">
-        <p>卒業後は、、</p>
+        <p>好きなライブラリはTailwindCSS</p>
       </div>
       <div className="mt-12">
         <NextLink href="/about">

@@ -6,8 +6,26 @@ export default function AboutPage() {
   return (
     <div>
       <section className="relative top-56 pb-56 text-white text-center">
-        <h1 className=" text-3xl">- わたしについて -</h1>
-        <div className="grid grid-cols-2 mt-12 m-8">
+        <h1 className=" text-3xl">わたしについて</h1>
+        <div className=" p-5 m-8 mt-10 border border-white text-left">
+          <p>
+            こんにちは、
+            <a className=" font-bold" href="https://x.com/aputech2024">
+              ひー@情報系学生
+            </a>
+            です。
+            <br />
+            <br />
+            趣味はお酒とゲームで、普段からお酒を嗜んでいます。
+            <br />
+            <br />
+            特に、ジンジャーエールで割る飲み方にハマっていて、シャンディガフやジンハイ、ジンバックが好きです。
+            <br />
+            <br />
+            ゲームはシミュレーションゲームを中心にFPSゲームやスマホゲームもプレイしています。
+          </p>
+        </div>
+        <div className="grid grid-cols-2 mt-32 m-8">
           <div>
             <h2 className=" underline underline-offset-4">好きなゲーム</h2>
             <div className=" mt-10 grid gap-10">
@@ -29,13 +47,26 @@ export default function AboutPage() {
             </div>
           </div>
         </div>
-        <div className="mt-40 grid grid-cols-1 m-8">
-          <h2 className=" text-xl">卒業後</h2>
-          <p className=" mt-20">関東でエンジニアになってバリバリ働きたい。</p>
+
+        <div className="mt-32 p-5 m-8 border border-white text-left">
+          <p>
+            プログラミング経験は、専門学校1年生の時からで、今年で三年目です。
+            <br />
+            <br />
+            TypeScript + Next.js +
+            TailwindCSSの構成が好きで、本サイトもこの構成で作成しています。
+            <br />
+            <br />
+            ホスティングはVercelで行っています。
+            <br />
+            <br />
+            また、Zennで技術記事を書いています。
+            <br />
+          </p>
         </div>
       </section>
-      <section className="relative top-56 pb-56 text-white text-center">
-        <h1 className=" text-3xl">- 記事一覧 -</h1>
+      <section className="relative top-40 pb-56 text-white text-center">
+        <h1 className=" text-3xl">記事一覧</h1>
         <div className="mt-20 grid grid-cols-1 gap-10">
           {articles.map((article, index) => (
             <ArticleCard
@@ -46,6 +77,15 @@ export default function AboutPage() {
               platform={article.platform}
             />
           ))}
+        </div>
+        <div className="mt-40 grid grid-cols-1 m-8">
+          <h2 className=" text-xl">将来</h2>
+          <p className=" mt-20">
+            関東でエンジニアになってバリバリ働きたい。
+            <br />
+            <br />
+            その後は地元で過ごしたい。
+          </p>
         </div>
         <div className="mt-32 text-white text-center">
           <Link href="/">
