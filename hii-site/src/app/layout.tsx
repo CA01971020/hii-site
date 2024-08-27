@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import CustomHeader from "@/component/base/header";
 import CustomFooter from "@/component/base/footer";
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -44,6 +45,7 @@ export default function RootLayout({
           <CustomHeader></CustomHeader>
         </div>
         {children}
+        <Analytics />
         <div className=" mt-60">
           <CustomFooter></CustomFooter>
         </div>
