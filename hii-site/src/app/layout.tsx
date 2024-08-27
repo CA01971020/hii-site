@@ -39,12 +39,14 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body className={inter.className}>
+        <div className="select-none">
         <div className=" fixed z-50">
           <CustomHeader></CustomHeader>
         </div>
         {children}
         <div className=" mt-60">
           <CustomFooter></CustomFooter>
+        </div>
         </div>
       </body>
     </html>

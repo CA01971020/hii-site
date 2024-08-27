@@ -6,7 +6,7 @@ export default function AboutPage() {
   return (
     <div>
       <section className="relative top-56 pb-56 text-white text-center">
-        <h1 className=" text-3xl">わたしについて</h1>
+        <h1>わたしについて</h1>
         <div className=" p-5 m-8 mt-10 border border-white text-left">
           <p>
             こんにちは、
@@ -33,7 +33,7 @@ export default function AboutPage() {
               <p>Stellaris</p>
               <p>信長の野望</p>
               <p>アークナイツ</p>
-              <p>Age of Empires IV</p>
+              <p>鈴蘭の剣</p>
             </div>
           </div>
           <div>
@@ -66,7 +66,7 @@ export default function AboutPage() {
         </div>
       </section>
       <section className="relative top-40 pb-56 text-white text-center">
-        <h1 className=" text-3xl">記事一覧</h1>
+        <h1>記事一覧</h1>
         <div className="mt-20 grid grid-cols-1 gap-10">
           {articles.map((article, index) => (
             <ArticleCard
@@ -75,6 +75,7 @@ export default function AboutPage() {
               description={article.description}
               url={article.url}
               platform={article.platform}
+              data={article.data}
             />
           ))}
         </div>
@@ -82,15 +83,12 @@ export default function AboutPage() {
           <h2 className=" text-xl">将来</h2>
           <p className=" mt-20">
             関東でエンジニアになってバリバリ働きたい。
-            <br />
-            <br />
-            その後は地元で過ごしたい。
           </p>
         </div>
         <div className="mt-32 text-white text-center">
-          <Link href="/">
+          <Link href="/about">
             <button className=" bg-Customblack pl-12 pr-12 pt-5 pb-5 rounded-full">
-              トップページに戻る
+              トップに戻る
             </button>
           </Link>
         </div>
