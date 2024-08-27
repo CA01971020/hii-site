@@ -5,3 +5,7 @@
 body {
   background-color: #124f53;
 }
+
+h1 {
+  @apply text-3xl;
+}

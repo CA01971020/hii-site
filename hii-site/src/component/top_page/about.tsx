@@ -3,7 +3,7 @@ import NextLink from "next/link";
 export default function Profile() {
   return (
     <section className="relative top-32 text-white text-center">
-      <h1 className=" text-3xl">プロフィール</h1>
+      <h1>プロフィール</h1>
       <div className="mt-12">
         <p>愛媛県在住の２１歳、情報系学生</p>
       </div>

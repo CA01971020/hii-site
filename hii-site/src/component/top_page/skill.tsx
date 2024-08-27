@@ -1,7 +1,7 @@
 export default function Skill() {
   return (
     <section id="skill" className="relative pt-56 text-white text-center">
-      <h1 className="text-3xl">スキル</h1>
+      <h1>スキル</h1>
       <div className="grid grid-cols-2 gap-10 m-12">
         <div className="bg-white text-Customblack rounded-xl p-5">
           <p>HTML5</p>
