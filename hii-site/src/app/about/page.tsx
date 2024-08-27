@@ -67,7 +67,7 @@ export default function AboutPage() {
       </section>
       <section className="relative top-40 pb-56 text-white text-center">
         <h1>記事一覧</h1>
-        <div className="mt-20 grid grid-cols-1 gap-10">
+        <div className="mt-20 grid grid-cols-1 gap-10 lg:grid-cols-2">
           {articles.map((article, index) => (
             <ArticleCard
               key={index}
