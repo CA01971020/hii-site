@@ -6,13 +6,28 @@ export default function CustomFooter() {
           <p className="copyright">&copy;2024 hii Site.</p>
         </div>
         <div className=" absolute right-6 lg:right-12 mt-3 lg:mt-5 text-Customblue">
-          <a href="https://x.com/aputech2024" className="mr-4 lg:mr-8 p-0.5">
+          <a
+            href="https://x.com/aputech2024"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mr-4 lg:mr-8 p-0.5"
+          >
             Twitter
           </a>
-          <a href="https://zenn.dev/aputech" className=" mr-4 lg:mr-8 p-0.5">
+          <a
+            href="https://zenn.dev/aputech"
+            target="_blank"
+            rel="noopener noreferrer"
+            className=" mr-4 lg:mr-8 p-0.5"
+          >
             Zenn
           </a>
-          <a href="https://note.com/hii_hgmt/" className="p-0.5">
+          <a
+            href="https://note.com/hii_hgmt/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-0.5"
+          >
             note
           </a>
         </div>
