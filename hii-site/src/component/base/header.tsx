@@ -22,7 +22,7 @@ export default function CustomHeader() {
             <Link href="/#portfolio">Portfolio</Link>
           </li>
         </ul>
-        <ul className="text-white bg-Customgreen/50 rounded-full pl-2 pr-2 pb-0.5 pt-0.5">
+        <ul className="text-white bg-Customgreen/50 rounded-full pl-2 pr-2 pb-0.5 pt-0.5 hover:bg-Customgreen">
           <li>
             <Link href="/#contact">Contact</Link>
           </li>

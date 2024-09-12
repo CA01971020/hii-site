@@ -10,7 +10,7 @@ export default function CustomFooter() {
             href="https://x.com/aputech2024"
             target="_blank"
             rel="noopener noreferrer"
-            className="mr-4 lg:mr-8 p-0.5"
+            className="mr-4 lg:mr-8 p-0.5 hover:text-Customblue/50"
           >
             Twitter
           </a>
@@ -18,7 +18,7 @@ export default function CustomFooter() {
             href="https://zenn.dev/aputech"
             target="_blank"
             rel="noopener noreferrer"
-            className=" mr-4 lg:mr-8 p-0.5"
+            className=" mr-4 lg:mr-8 p-0.5 hover:text-Customblue/50"
           >
             Zenn
           </a>
@@ -26,7 +26,7 @@ export default function CustomFooter() {
             href="https://note.com/hii_hgmt/"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-0.5"
+            className="p-0.5 hover:text-Customblue/50"
           >
             note
           </a>

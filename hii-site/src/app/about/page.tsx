@@ -81,13 +81,11 @@ export default function AboutPage() {
         </div>
         <div className="mt-40 grid grid-cols-1 m-8">
           <h2 className=" text-xl">将来</h2>
-          <p className=" mt-20">
-            関東でエンジニアになってバリバリ働きたい。
-          </p>
+          <p className=" mt-20">関東でエンジニアになってバリバリ働きたい。</p>
         </div>
         <div className="mt-32 text-white text-center">
           <Link href="/about">
-            <button className=" bg-Customblack pl-12 pr-12 pt-5 pb-5 rounded-full">
+            <button className=" bg-Customblack pl-12 pr-12 pt-5 pb-5 rounded-full hover:bg-Customgray">
               トップに戻る
             </button>
           </Link>

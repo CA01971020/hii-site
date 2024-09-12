@@ -12,6 +12,7 @@ module.exports = {
       Customgreen: "#124F53",
       Customblue: "#158DD1",
       white: "#FFFFFF",
+      CustomWhite: "#f5f5f5" ,
     },
   },
   plugins: [],
