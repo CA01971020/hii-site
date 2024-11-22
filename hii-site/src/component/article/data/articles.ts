@@ -1,5 +1,13 @@
 export const articles = [
   {
+    title: "propsの基本（React）",
+    description:
+      "Reactのコンポーネント間で値をやり取りする場合の方法の一つであるpropsについて学んだので、備忘録として使用例を交えながら解説を残したい。",
+    platform: "Zenn",
+    url: "https://zenn.dev/aputech/articles/ecfefa755df245",
+    data: "2024年11月12日",
+  },
+  {
     title: "TailwindCSSとReact(useState)で作るProgressBarの備忘録",
     description:
       "WEBアプリ開発の途中で、プログレスバー（ProgressBar）を作成したので、備忘録として残しておきます。",
