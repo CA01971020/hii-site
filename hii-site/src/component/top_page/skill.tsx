@@ -20,12 +20,24 @@ export default function Skill() {
           <p>★☆☆</p>
         </div>
         <div className="bg-white text-Customblack rounded-xl p-5">
+          <p>React</p>
+          <p>★★☆</p>
+        </div>
+        <div className="bg-white text-Customblack rounded-xl p-5">
           <p>Next.js</p>
           <p>★☆☆</p>
         </div>
         <div className="bg-white text-Customblack rounded-xl p-5">
           <p>TailwindCSS</p>
           <p>★★☆</p>
+        </div>
+        <div className="bg-white text-Customblack rounded-xl p-5">
+          <p>Firebase</p>
+          <p>★☆☆</p>
+        </div>
+        <div className="bg-white text-Customblack rounded-xl p-5">
+          <p>Docker</p>
+          <p>★☆☆</p>
         </div>
       </div>
     </section>

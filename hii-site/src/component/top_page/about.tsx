@@ -14,10 +14,10 @@ export default function Profile() {
         <p>好きな言語はTypeScript</p>
       </div>
       <div className="mt-8">
-        <p>好きなフレームワークはNext.js</p>
+        <p>好きなライブラリはReact</p>
       </div>
       <div className="mt-8">
-        <p>好きなライブラリはTailwindCSS</p>
+        <p>好きなフレームワークはTailwindCSS</p>
       </div>
       <div className="mt-12">
         <NextLink href="/about">
