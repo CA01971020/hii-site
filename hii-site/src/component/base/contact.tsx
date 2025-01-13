@@ -7,7 +7,7 @@ export default function Contact() {
       <h1>連絡</h1>
       <div className="mt-48 flex gap-10 justify-center">
         <a
-          href="https://x.com/aputech2024"
+          href="https://x.com/hiitech2024"
           className="underline underline-offset-2"
         >
           Twitter DM
