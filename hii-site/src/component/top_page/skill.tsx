@@ -12,12 +12,16 @@ export default function Skill() {
           <p>★★☆</p>
         </div>
         <div className="bg-white text-Customblack rounded-xl p-5">
-          <p>JavaScript</p>
+          <p>Python3</p>
           <p>★☆☆</p>
         </div>
         <div className="bg-white text-Customblack rounded-xl p-5">
+          <p>JavaScript</p>
+          <p>★★☆</p>
+        </div>
+        <div className="bg-white text-Customblack rounded-xl p-5">
           <p>TypeScript</p>
-          <p>★☆☆</p>
+          <p>★★☆</p>
         </div>
         <div className="bg-white text-Customblack rounded-xl p-5">
           <p>React</p>
