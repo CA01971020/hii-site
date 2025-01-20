@@ -13,55 +13,35 @@ export default function AboutPage() {
             <a className=" font-bold" href="https://x.com/aputech2024">
               ひー@情報系学生
             </a>
-            です。
+            です。 趣味は居酒屋巡りと旅行で、普段からお酒を嗜んでいます。
             <br />
             <br />
-            趣味はお酒とゲームで、普段からお酒を嗜んでいます。
+            飲み会の幹事をやることも多いので、愛媛県松山市で安く飲める居酒屋や新しく出来た居酒屋、美味しいと聞いた居酒屋など、居酒屋開拓を楽しんでいます。
             <br />
             <br />
-            特に、ジンジャーエールで割る飲み方にハマっていて、シャンディガフやジンハイ、ジンバックが好きです。
-            <br />
-            <br />
-            ゲームはシミュレーションゲームを中心にFPSゲームやスマホゲームもプレイしています。
+            旅行は学生の間に、東京・京都・大阪・岡山・広島・香川・高知に行きました。愛媛県から出ることで世の中の広さを知ることができました。
           </p>
         </div>
-        <div className="grid grid-cols-2 mt-32 m-8">
-          <div>
-            <h2 className=" underline underline-offset-4">好きなゲーム</h2>
-            <div className=" mt-10 grid gap-10">
-              <p>Apex Legends</p>
-              <p>Stellaris</p>
-              <p>信長の野望</p>
-              <p>アークナイツ</p>
-              <p>鈴蘭の剣</p>
-            </div>
-          </div>
-          <div>
-            <h2 className=" underline underline-offset-4">好きなお酒</h2>
-            <div className="mt-10 grid gap-10">
-              <p>ビール</p>
-              <p>シャンディガフ</p>
-              <p>ジンハイ</p>
-              <p>コークハイ</p>
-              <p>ジンバック</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="mt-32 p-5 m-8 border border-white text-left">
+        <h1 className="mt-32">プログラミング経験について</h1>
+        <div className="mt-10 p-5 m-8 border border-white text-left">
           <p>
-            プログラミング経験は、専門学校1年生の時からで、今年で三年目です。
+            プログラミング経験は専門学校1年生（2022年）の時からで、今年（2025年）は4年目です。
             <br />
             <br />
-            TypeScript + Next.js +
-            TailwindCSSの構成が好きで、本サイトもこの構成で作成しています。
+            2年生の時にWEBサイトやWEBアプリの開発に興味を持ったのでフロントエンドの技術を中心に勉強中です。
+            特に、ReactとTypeScriptを用いた開発には自信があり、現在進行形で試行錯誤しながらWEBアプリ開発に挑戦しています。
             <br />
             <br />
-            ホスティングはVercelで行っています。
+            他に扱える技術としては、HTML、CSS、TailwindCSS、JavaScript、Next.js、Python、AWS、Azure、Firebase、GitHub、Figma、Dockerなどがあります。
+          </p>
+        </div>
+        <h1 className="mt-32">将来について</h1>
+        <div className="mt-10 p-5 m-8 border border-white text-left">
+          <p>
+            私の技術的な知識はフロントエンドがメインとなっているので、バックエンドの知識・技術も磨いて将来的にはフルスタックで活躍できる人材になりたいです。
             <br />
             <br />
-            また、Zennで技術記事を書いています。
-            <br />
+            また、貪欲に技術を学び、業務を学び、仕事ができる人間を目指してチャレンジしていきたいと思います。
           </p>
         </div>
       </section>
@@ -78,10 +58,6 @@ export default function AboutPage() {
               data={article.data}
             />
           ))}
-        </div>
-        <div className="mt-40 grid grid-cols-1 m-8">
-          <h2 className=" text-xl">将来</h2>
-          <p className=" mt-20">関東でエンジニアになってバリバリ働きたい。</p>
         </div>
         <div className="mt-32 text-white text-center">
           <Link href="/about">
