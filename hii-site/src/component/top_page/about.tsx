@@ -2,13 +2,13 @@ import NextLink from "next/link";
 
 export default function Profile() {
   return (
-    <section className="relative top-32 text-white text-center">
+    <section className="relative top-20 text-white text-center">
       <h1>プロフィール</h1>
       <div className="mt-12">
         <p>愛媛県在住の２１歳、情報系学生</p>
       </div>
       <div className="mt-8">
-        <p>趣味はゲームとお酒</p>
+        <p>趣味は居酒屋巡りと旅行</p>
       </div>
       <div className="mt-8">
         <p>好きな言語はTypeScript</p>
