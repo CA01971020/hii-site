@@ -5,7 +5,7 @@ import { articles } from "@/component/article/data/articles";
 export default function AboutPage() {
   return (
     <div>
-      <section className="relative top-56 pb-56 text-white text-center">
+      <section className="relative top-44 pb-56 text-white text-center">
         <h1>わたしについて</h1>
         <div className=" p-5 m-8 mt-10 border border-white text-left">
           <p>
