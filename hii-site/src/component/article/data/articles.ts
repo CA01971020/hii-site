@@ -1,5 +1,13 @@
 export const articles = [
   {
+    title: "FastAPI入門 「Hello FastAPI!」 まで。",
+    description:
+      "PythonのAPI開発WEBフレームワークであるFastAPIのインストールから「Hello FastAPI!」を表示するまでをまとめた記事です。",
+    platform: "Zenn",
+    url: "https://zenn.dev/aputech/articles/bad52ee80f2cc2",
+    data: "2025年01月27日",
+  },
+  {
     title: "propsの基本（React）",
     description:
       "Reactのコンポーネント間で値をやり取りする場合の方法の一つであるpropsについて学んだので、備忘録として使用例を交えながら解説を残したい。",
