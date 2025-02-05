@@ -2,7 +2,7 @@ export default function Skill() {
   return (
     <section id="skill" className="relative pt-44 text-white text-center">
       <h1>スキル</h1>
-      <div className="grid grid-cols-2 gap-10 m-12 lg:grid-cols-3 lg:gap-24">
+      <div className="grid grid-cols-2 gap-10 m-12 mt-40 lg:grid-cols-4 lg:gap-24">
         <div className="bg-white text-Customblack rounded-xl p-5">
           <p>HTML5</p>
           <p>★★☆</p>
