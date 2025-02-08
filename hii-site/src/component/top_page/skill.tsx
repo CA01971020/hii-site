@@ -36,6 +36,10 @@ export default function Skill() {
           <p>★★☆</p>
         </div>
         <div className="bg-white text-Customblack rounded-xl p-5">
+          <p>FastAPI</p>
+          <p>★☆☆</p>
+        </div>
+        <div className="bg-white text-Customblack rounded-xl p-5">
           <p>Firebase</p>
           <p>★☆☆</p>
         </div>
