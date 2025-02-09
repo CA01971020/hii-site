@@ -18,13 +18,13 @@ export default function NoWrongAnswerQuizGame() {
               className=" absolute left-8 lg:left-20 top-2.5"
             ></Image>
             <p className=" absolute w-40 top-4 right-8 lg:right-20 text-Customblue">
-              no-wrong-answer-quiz-game
+              不正解がないクイズゲーム
             </p>
           </div>
         </a>
       </div>
       <div className=" mt-8 mr-8 ml-8">
-        <p>no-wrong-answer-quiz-gameは、不正解がないクイズゲームです。</p>
+        <p>どの選択肢も正解なクイズゲームです。</p>
       </div>
     </div>
   );
