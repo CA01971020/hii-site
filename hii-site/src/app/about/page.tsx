@@ -7,7 +7,7 @@ export default function AboutPage() {
   return (
     <div>
       <section className="relative top-44 pb-56 text-white text-center">
-        <h1>わたしについて</h1>
+        <h1>About Me</h1>
         <div className=" p-5 m-8 mt-10 border border-white text-left">
           <p>
             こんにちは、
@@ -23,7 +23,7 @@ export default function AboutPage() {
             旅行は学生の間に、東京・京都・大阪・兵庫・広島・香川・高知に行きました。愛媛県から出ることで世の中の広さを知ることができました。
           </p>
         </div>
-        <h1 className="mt-32">プログラミング経験について</h1>
+        <h1 className="mt-32">Programming Experience</h1>
         <div className="mt-10 p-5 m-8 border border-white text-left">
           <p>
             プログラミング経験は専門学校1年生（2022年）の時からで、今年（2025年）は4年目です。
@@ -36,7 +36,7 @@ export default function AboutPage() {
             他に扱える技術としては、HTML、CSS、TailwindCSS、JavaScript、Next.js、Python、AWS、Azure、Firebase、GitHub、Figma、Dockerなどがあります。
           </p>
         </div>
-        <h1 className="mt-32">将来について</h1>
+        <h1 className="mt-32">About My Future</h1>
         <div className="mt-10 p-5 m-8 border border-white text-left">
           <p>
             私の技術的な知識はフロントエンドがメインとなっているので、バックエンドの知識・技術も磨いて将来的にはフルスタックで活躍できる人材になりたいです。
@@ -47,7 +47,7 @@ export default function AboutPage() {
         </div>
       </section>
       <section className="relative top-40 pb-56 text-white text-center">
-        <h1>記事一覧</h1>
+        <h1>Blogs</h1>
         <div className="mt-20 grid grid-cols-1 gap-10 lg:grid-cols-2">
           {articles.map((article, index) => (
             <ArticleCard
@@ -62,7 +62,7 @@ export default function AboutPage() {
         </div>
         <div className="mt-32 text-white text-center">
           <Link href="/about">
-            <CustomButton buttontext="トップに戻る" />
+            <CustomButton buttontext="Back to Top" />
           </Link>
         </div>
       </section>
