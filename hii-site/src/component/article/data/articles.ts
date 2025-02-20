@@ -1,5 +1,13 @@
 export const articles = [
   {
+    title: "Pythonのクラス変数とインスタンス変数",
+    description:
+      "Pythonのクラス変数とインスタンス変数の値の持ち方がよくわからなかったので整理する。",
+    platform: "Zenn",
+    url: "https://zenn.dev/aputech/articles/bc1ca815bde582",
+    data: "2025年02月14日",
+  },
+  {
     title: "FastAPI入門 「Hello FastAPI!」 まで。",
     description:
       "PythonのAPI開発WEBフレームワークであるFastAPIのインストールから「Hello FastAPI!」を表示するまでをまとめた記事です。",
