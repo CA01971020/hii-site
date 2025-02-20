@@ -7,17 +7,17 @@ export default function CustomHeader() {
         <p className=" absolute top-2 left-2.5">ひ</p>
       </div>
       <nav className="flex absolute justify-end right-7 lg:right-16 top-9">
-        <ul className="mr-4 lg:mr-12 p-0.5">
+        <ul className="mr-4 lg:mr-12 p-0.5 hover:text-Customgreen">
           <li>
             <Link href="/">Home</Link>
           </li>
         </ul>
-        <ul className="mr-4 lg:mr-12 p-0.5">
+        <ul className="mr-4 lg:mr-12 p-0.5 hover:text-Customgreen">
           <li>
             <Link href="/#skill">Skill</Link>
           </li>
         </ul>
-        <ul className="mr-4 lg:mr-12 p-0.5">
+        <ul className="mr-4 lg:mr-12 p-0.5 hover:text-Customgreen">
           <li>
             <Link href="/#portfolio">Portfolio</Link>
           </li>
