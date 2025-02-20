@@ -1,31 +1,15 @@
-import Image from "next/image";
+import PortfolioCard from "../ui/portfoliocard";
 
 export default function NoWrongAnswerQuizGame() {
   return (
-    <div>
-      <div>
-        <a
-          href="https://no-wrong-answer-quiz-game.vercel.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <div className="relative mr-12 lg:mr-96 ml-12 lg:ml-96 rounded-xl p-10 bg-white grid grid-cols-2 lg:grid-cols-1">
-            <Image
-              alt="no-wrong-answer-quiz-game"
-              src="/nowicon.png"
-              width="60"
-              height="10"
-              className=" absolute left-8 lg:left-20 top-2.5"
-            ></Image>
-            <p className=" absolute w-40 top-4 right-8 lg:right-20 text-Customblue">
-              不正解がないクイズゲーム
-            </p>
-          </div>
-        </a>
-      </div>
-      <div className=" mt-8 mr-8 ml-8">
-        <p>どの選択肢も正解なクイズゲームです。</p>
-      </div>
-    </div>
+    <PortfolioCard
+      title="不正解がないクイズゲーム"
+      description="どの選択肢も正解なクイズゲームです。"
+      url="https://no-wrong-answer-quiz-game.vercel.app/"
+      alt="不正解がないクイズゲームのアイコン"
+      src="/nowicon.png"
+      wd={60}
+      hg={60}
+    />
   );
 }

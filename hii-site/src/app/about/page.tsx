@@ -1,6 +1,7 @@
 import Link from "next/link";
 import ArticleCard from "@/component/article/articleCard";
 import { articles } from "@/component/article/data/articles";
+import CustomButton from "@/component/ui/custombutton";
 
 export default function AboutPage() {
   return (
@@ -61,9 +62,7 @@ export default function AboutPage() {
         </div>
         <div className="mt-32 text-white text-center">
           <Link href="/about">
-            <button className=" bg-Customblack pl-12 pr-12 pt-5 pb-5 rounded-full hover:bg-Customgray">
-              トップに戻る
-            </button>
+            <CustomButton buttontext="トップに戻る" />
           </Link>
         </div>
       </section>

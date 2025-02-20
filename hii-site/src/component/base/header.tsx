@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function CustomHeader() {
   return (
-    <header className="fixed w-full h-24 text-base text-Customblack bg-white">
+    <header className="fixed w-full h-24 text-base text-Customblack bg-white border-b-2 border-b-black">
       <div className=" absolute top-6 left-6 lg:left-16 w-12 h-12 bg-Customgreen text-white text-3xl font-semibold rounded-full">
         <p className=" absolute top-2 left-2.5">ひ</p>
       </div>
