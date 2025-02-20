@@ -7,16 +7,16 @@ export default function Home() {
   return (
     <main className="relative top-24 z-0">
       <div>
-        <Profile></Profile>
+        <Profile />
       </div>
       <div className=" relative mt-40">
-        <Skill></Skill>
+        <Skill />
       </div>
       <div className=" relative mt-40">
-        <Portfolio></Portfolio>
+        <Portfolio />
       </div>
       <div className=" relative mt-40">
-        <Contact></Contact>
+        <Contact />
       </div>
     </main>
   );

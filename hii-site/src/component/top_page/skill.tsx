@@ -3,7 +3,7 @@ import SkillCard from "../ui/skillcard";
 export default function Skill() {
   return (
     <section id="skill" className="relative pt-44 text-white text-center">
-      <h1>スキル</h1>
+      <h1>My Skills</h1>
       <div className="grid grid-cols-2 gap-10 m-12 mt-40 lg:grid-cols-4 lg:gap-24">
         <SkillCard skill="HTML5" rating="★★☆" />
         <SkillCard skill="CSS3" rating="★★☆" />

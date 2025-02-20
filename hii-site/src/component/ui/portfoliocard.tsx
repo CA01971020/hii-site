@@ -24,7 +24,7 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({
     <div>
       <div>
         <a href={url} target="_blank" rel="noopener noreferrer">
-          <div className="relative mr-12 lg:mr-96 ml-12 lg:ml-96 rounded-xl p-10 bg-white grid grid-cols-2 lg:grid-cols-1 shadow-lg ring-2 ring-black/20 shadow-black/50">
+          <div className="relative mr-12 lg:mr-96 ml-12 lg:ml-96 rounded-xl p-10 bg-white grid grid-cols-2 lg:grid-cols-1 shadow-lg ring-2 ring-black/20 shadow-black/50 hover:opacity-80">
             <Image
               alt={alt}
               src={src}
