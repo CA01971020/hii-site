@@ -1,4 +1,5 @@
 import NextLink from "next/link";
+import CustomButton from "../ui/custombutton";
 
 export default function Profile() {
   return (
@@ -21,9 +22,7 @@ export default function Profile() {
       </div>
       <div className="mt-12">
         <NextLink href="/about">
-          <button className=" bg-Customblack pl-12 pr-12 pt-5 pb-5 rounded-full hover:bg-Customgray">
-            ABOUT PAGE
-          </button>
+          <CustomButton buttontext="ABOUT PAGE" />
         </NextLink>
       </div>
     </section>
