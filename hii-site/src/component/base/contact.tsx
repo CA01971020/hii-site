@@ -2,9 +2,9 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="relative pt-56 pb-56 text-white text-center"
+      className="relative pt-44 pb-56 text-white text-center"
     >
-      <h1>連絡</h1>
+      <h1>Contact</h1>
       <div className="mt-48 flex gap-10 justify-center">
         <a
           href="https://x.com/hiitech2024"
