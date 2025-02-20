@@ -1,6 +1,6 @@
 export default function CustomFooter() {
   return (
-    <footer className="w-full h-16 lg:h-20 text-base text-Customblack bg-white ">
+    <footer className="w-full h-16 lg:h-20 text-base text-Customblack bg-white border-t-2 border-black/50">
       <div className="cursor-default pt-2 flex">
         <div className=" absolute left-3 lg:left-12 mt-3 lg:mt-5">
           <p className="copyright">&copy;2024 hii Site.</p>
