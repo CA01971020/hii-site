@@ -16,7 +16,7 @@ const ArticleCard: React.FC<ArticleCardProps> = ({
   data,
 }) => {
   return (
-    <div className="relative text-Customblack p-3 mr-12 ml-12 mb-3 bg-white rounded-lg ">
+    <div className="relative text-Customblack p-3 mr-12 ml-12 mb-3 bg-white rounded-lg shadow-lg ring-2 ring-black/10 shadow-black/50">
       <div className="mt-3 mb-3">
         <p className=" text-Customgray mt-3 mb-3">{data}</p>
         <h2 className=" text-lg mb-5 underline underline-offset-8">{title}</h2>
