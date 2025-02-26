@@ -1,6 +1,7 @@
 import Yojijyukugo from "../portfolio/yojijyukugo";
 import Realdaily from "../portfolio/realdaily";
 import NoWrongAnswerQuizGame from "../portfolio/no-wrong-answer-quiz-game";
+import SimpleDiary from "../portfolio/simple-diary";
 
 export default function Portfolio() {
   return (
@@ -10,6 +11,7 @@ export default function Portfolio() {
         <Yojijyukugo />
         <Realdaily />
         <NoWrongAnswerQuizGame />
+        <SimpleDiary />
       </div>
     </section>
   );
