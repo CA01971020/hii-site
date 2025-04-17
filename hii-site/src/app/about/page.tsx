@@ -33,7 +33,7 @@ export default function AboutPage() {
             特に、ReactとTypeScriptを用いた開発には自信があり、現在進行形で試行錯誤しながらWEBアプリ開発に挑戦しています。
             <br />
             <br />
-            他に扱える技術としては、HTML、CSS、TailwindCSS、JavaScript、Next.js、Python、AWS、Azure、Firebase、GitHub、Figma、Dockerなどがあります。
+            他に扱える技術としては、HTML、CSS、TailwindCSS、JavaScript、Next.js、Python、FastAPI、AWS、Azure、Firebase、GitHub、Figma、Dockerなどがあります。
           </p>
         </div>
         <h1 className="mt-32">About My Future</h1>
