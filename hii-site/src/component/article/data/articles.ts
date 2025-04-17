@@ -1,5 +1,13 @@
 export const articles = [
   {
+    title: "Python3エンジニア認定基礎試験にギリギリで合格した話。",
+    description:
+      "2025年2月19日にPython3エンジニア認定基礎試験を受験し、合格したので試験概要と勉強方法をまとめる。",
+    platform: "Zenn",
+    url: "https://zenn.dev/aputech/articles/6fcfda6e7c9150",
+    data: "2025年04月17日",
+  },
+  {
     title: "Pythonのクラス変数とインスタンス変数",
     description:
       "Pythonのクラス変数とインスタンス変数の値の持ち方がよくわからなかったので整理する。",
